@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bán ĐIỆN THOẠI</title>
+    <link rel="stylesheet" type="text/css" href="../webcss/web .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript" src="../webjavascrip/web.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="header">
+            <div class="head1">
+                <img id="head" src="../webimg/head1.jpg">
+                <div class="the-doc">
+                    <i class="fa fa-chevron-left" aria-hidden="true" onclick="back_Ipg()" style="font-size: 36px;margin-top:-178px;display: block;
+            cursor: pointer;"></i>
+                    <i class="fa fa-chevron-right" aria-hidden="true" onclick="next_Ipg()" style="font-size: 36px;margin-left:1104px;padding-top:-72px;margin-top: -37px;
+            cursor: pointer;"></i>
+                </div>
+                <p id="locdem" style="margin-left: 184px;font-size: 30px;margin-top: 117px;">
+                </p>
+            </div>
+
+        </div>
+        <div class="menu">
+            <nav id="menu_logo">
+                <i class="fa fa-google-wallet" aria-hidden="true"></i>
+                <a class="menu_logoa">Dasani.com</a>
+                <!-- <img src="../webimg/logo-the-gioi-di-dong.jpg" alt=""> -->
+            </nav>
+            <nav id="menu_diachi"><a class="menu_a">xem giá tồn kho tại</a>
+                <!-- <i class="fa fa-address-book" aria-hidden="true"></i> -->
+                <ul class="menu1">
+                    <select class="menu1-1" id="menu_diachi_1">
+                        <div class="actions">
+                            <option><a href="#">Quảng Nam</a></option>
+                            <option><a href="#">Quảng Ngãi</a></option>
+                            <option><a href="#">Tiền Giang</a></option>
+                            <option><a href="#">Kiêng Giang</a></option>
+                            <option><a href="#">Huế</a></option>
+                            <option><a href="#">Hà Nội</a></option>
+                            <option><a href="#">Quảng Nam</a></option>
+                            <option><a href="#">Hải Phòng</a></option>
+                            <option><a href="#">Vinh</a></option>
+                        </div>
+                    </select>
+                </ul>
+            </nav>
+            <nav id="menu_input">
+                <i class="iconnewglobal-logo"></i>
+                <input class="input" type="tim-kiem" id="timkiemA" placeholder="Bạn đang tìm gì..." value />
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </nav>
+            <nav id="menu_user"><a class="menu_a" href="../webhtml/login.html">taikhoan</a>
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </nav>
+            <nav id="menu_giohang"><a class="menu_a">giohang</a>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </nav>
+            <nav id="menu_congnghe"><a class="menu_a">công nghệ</a></nav>
+            <nav id="menu_congnghe"><a class="menu_a">hỏi đáp</a></nav>
+            <nav id="menu_congnghe"><a class="menu_a">gameapp</a></nav>
+            <!-- <section>noi dung 1</section>
+            <aside>noi dung 2</aside>
+            <footer>dia chi</footer> -->
+        </div>
+        <div class="product_intro">
+            <nav class="intro_lap">
+                <i class="fa fa-laptop" aria-hidden="true"></i>
+                <a class=" ">Laptop </a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <a class=" ">Điện thoại </a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <a class=" ">Đồng hồ</a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+                <a class=" ">Phụ Kiện</a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-print" aria-hidden="true"></i>
+                <a class=" ">PC,máy in </a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-tablet" aria-hidden="true"></i>
+                <a class=" ">Table </a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <a class=" ">Máy cũ giá rẻ</a>
+            </nav>
+            <nav class="intro_lap">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                <a class=" ">Sim,thẻ cào</a>
+            </nav>
+            <nav class="intro_lap">
+                <a class=" ">Dịch vụ khác </a>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <div id="intro_service">
+                    <ul class=" service">THANH TOÁN HÓA ĐƠN
+                        <li>Đóng tiền trả góp</li>
+                        <li>Đóng tiền điện</li>
+                        <li>Đóng tiền nước</li>
+                        <li>Đóng tiền net</li>
+                        <li>Vé xe ,tàu</li>
+                    </ul>
+                    <ul class=" service">Tài CHÍNH-BẢO HIỂM
+                        <li>Bảo hiểm ô tô</li>
+                        <li>Bảo hiểm xe máy</li>
+                        <li>Bảo hiểm thân thể</li>
+                    </ul>
+                    <ul class="service">TIỆN ÍCH VIỄN THÔNG
+                        <li>Mua gói data</li>
+                        <li>Nạp tiền trả trước</li>
+                        <li>Nạp tiền trả sau</li>
+                        <li>Thẻ cào</li>
+                        <li>Thẻ điện thoại</li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

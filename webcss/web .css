@@ -1,0 +1,201 @@
+body {
+    padding: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    width: 1173px;
+    background-color: aqua;
+
+}
+
+/* xem lại */
+.header {
+    width: 100%;
+    height: 300px;
+    /* margin: 20px; */
+    background-color: #FFFFFF;
+}
+
+.header img {
+    width: 1173px;
+    height: 300px;
+}
+
+.head1 {
+    display: grid;
+    justify-content: center;
+}
+
+.menu {
+    height: 73px;
+    background-color: #FFD400;
+    cursor: pointer;
+}
+
+.menu .menu_a a {
+    display: block;
+
+}
+
+.menu .menu_a:hover {
+    color: rgb(202, 25, 25);
+}
+
+#menu_logo {
+    /* width: 100px; */
+    /* border: 2px solid #68217A; */
+    float: left;
+}
+
+#menu_logo i {
+    font-size: 73px;
+}
+
+.menu_logoa {
+    font-size: 24px;
+}
+
+#menu_diachi {
+    width: 157px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FFBC06;
+    float: left;
+    margin: 15px;
+    margin-left: 16px;
+}
+
+#menu_diachi_1 {
+    width: 25px;
+    height: 12px;
+    margin-left: 90px;
+}
+
+#menu_user {
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid #68217A; */
+    background-color: #FFBC06;
+    float: left;
+    border-radius: 8px;
+    margin: 13px;
+    margin-left: -5px;
+}
+
+#menu_user i {
+    font-size: 22px;
+
+}
+
+#menu_user a {
+    text-decoration: none;
+}
+
+#menu_input {
+
+    border: 2px solid #68217A;
+    background-color: rgb(132, 132, 208);
+    float: left;
+    border-radius: 8px;
+    margin: 18px;
+}
+
+.menu .input {
+    width: 249px;
+    height: 32px;
+}
+
+#menu_giohang {
+    width: 100px;
+    height: 50px;
+    /* border: 2px solid #68217A; */
+    background-color: #FFBC06;
+    float: left;
+    border-radius: 8px;
+    margin: 12px;
+    margin-left: -7px;
+
+}
+
+#menu_giohang i {
+    font-size: 22px;
+}
+
+#menu_congnghe {
+    width: 71px;
+    height: 28px;
+    background-color: rgb(136, 132, 208);
+    float: left;
+    border-radius: 0 0 25px;
+    margin: 9px;
+    margin-top: 25px;
+    margin-left: 6px;
+}
+
+.product_intro {
+    background-color: #FFD400;
+    height: 40px;
+    padding: 20px 0 10px;
+}
+
+.product_intro .intro_lap {
+    float: left;
+    margin-left: 43px;
+    /* margin-left: -829px */
+}
+
+/* width: 100px;
+    height: 50px;
+    background-color: azure;
+#intro_phone {
+  float: left;
+}
+
+#intro_lock {
+    float: left;
+}
+
+#intro_accessory {
+    float: left;
+}
+
+#intro_pc {
+    float: left;
+}
+
+#intro_table {
+    float: left;
+}
+
+#intro_card {
+    float: left;
+}
+
+#intro_cus {
+    float: left;
+} */
+#intro_service ul.service {
+    width: 181px;
+    height: 111px;
+    /* position: absolute; */
+    display: none;
+}
+
+.service {
+    float: left;
+}
+/* 
+.service>li {
+    display: none
+
+} */
+.intro_lap a:hover, .service ul:hover.service line{
+    /* list-style: none; */
+    display: block;
+    /* background-color: black; */
+    /* display: inline-table; */
+}

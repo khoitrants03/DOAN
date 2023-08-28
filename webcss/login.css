@@ -1,0 +1,99 @@
+body{
+    background: #c0af59;
+}
+.phan-I{
+    padding: 15px;
+    width: 294px;
+    background: #01022F;
+    /* margin-left: 310px; */
+    margin-top: 82px;
+    display: block;
+    color: rgb(243, 237, 237);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* div con một cấp */
+.phan-I > div{
+    margin-top: 10px;
+}
+
+/* .phan-I .gioi_thieu{
+    margin-left: 50px;
+} */
+.gioi_thieu .logo{
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 6em;
+    width: 6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gioi_thieu .loi-chao{
+    text-align: center;
+}
+.gioi_thieu .loi-chao h1{
+    color: #EFF4FB;
+    font-size: 37px;
+}
+.gioi_thieu .loi-chao h2{
+    color: #60607B;
+    font-size: 13px;
+}
+.dang_nhap .user-nhap-vao *{
+    float: left;
+}
+
+.dang_nhap .user-nhap-vao i{
+    width: 5%;
+}
+
+.dang_nhap .user-nhap-vao input{
+    width: 88%;
+    height: 25px;
+}
+
+.Forgot-Password{
+    overflow: hidden;
+}
+
+.dang_nhap .user-nhap-vao{
+    overflow: hidden;
+    font-size: 23px;
+    margin-top: 16px;
+}
+.user-nhap-vao .search{
+    /* width: 221px; */
+    margin-left: 10px;
+}
+.phan-I .Forgot-Password h1{
+    font-size: 17px;
+    color: #76647E;
+    float: right;
+}
+
+.Get-Started .button1{
+    background: #B08BAC;
+    font-size: small;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 3px solid #cc0000;
+    border-radius: 9px;
+    width: 100%;
+}
+.phan-I .ket-thuc h1 {
+    font-size: 16px;
+    font-family: math;
+    /* margin-left: 57px; */
+    text-align: center;
+}
+.phan-I .ket-thuc h2{
+    color: #8F86A2;
+    font-size: 14px;
+    font-family: Tahoma;
+    text-align: center;
+    text-transform: uppercase;
+ }
